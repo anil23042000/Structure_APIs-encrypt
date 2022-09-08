@@ -2,6 +2,7 @@ require('./Config/db');
 
 const express = require('express');
 const bcrypt = require('bcrypt');
+const jwt = require("jsonwebtoken");
 const path = require('path');
 const handlebars = require('handlebars');
 const exphbs = require('express-handlebars');
